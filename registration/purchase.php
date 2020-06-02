@@ -15,34 +15,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Home</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+  <script>
+function myFunction()
+{
+  alert("DONE!");
+}
+</script>
+  <title>Purchase</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
 <div class="header">
-	<h2>Hello!</h2>
+  <h2>Purchase</h2>
 </div>
 <div class="content">
-  	<!-- notification message -->
-  	<?php if (isset($_SESSION['success'])) : ?>
+    <!-- notification message -->
+    <?php if (isset($_SESSION['success'])) : ?>
       <div class="error success" >
-      	<h3>
+        <h3>
           <?php 
-          	echo $_SESSION['success']; 
-          	unset($_SESSION['success']);
+            echo $_SESSION['success']; 
+            unset($_SESSION['success']);
           ?>
-      	</h3>
+        </h3>
       </div>
-  	<?php endif ?>
+    <?php endif ?>
 
     <!-- logged in user information -->
     <?php  if (isset($_SESSION['username'])) : ?>
-    	<p>Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
-    	<p> <a href="index.php?logout='1'" style="color: red;">Logout</a> </p>
+      <p>Hello <strong><?php echo $_SESSION['username']; ?></strong></p>
+      <input type="button" onclick="myFunction()" value="Submit Purchase" />
     <?php endif ?>
     <a href="kursa.php">Home</a>
 </div>
-		
+    
 </body>
 </html>

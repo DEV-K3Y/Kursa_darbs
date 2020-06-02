@@ -4,16 +4,16 @@
 }
 body {
   font-size: 120%;
-  background: #F8F8FF;
+  background: #ffffff;
 }
 
 .header {
   width: 30%;
   margin: 50px auto 0px;
-  color: white;
-  background: #5F9EA0;
+  color: white ;
+  background: #000000;
   text-align: center;
-  border: 1px solid #B0C4DE;
+  border: 1px solid #ffffff ;
   border-bottom: none;
   border-radius: 10px 10px 0px 0px;
   padding: 20px;
@@ -22,8 +22,8 @@ form, .content {
   width: 30%;
   margin: 0px auto;
   padding: 20px;
-  border: 1px solid #B0C4DE;
-  background: white;
+  border: 1px solid #ffffff;
+  background: #ffffff;
   border-radius: 0px 0px 10px 10px;
 }
 .input-group {
@@ -40,13 +40,13 @@ form, .content {
   padding: 5px 10px;
   font-size: 16px;
   border-radius: 5px;
-  border: 1px solid gray;
+  border: 1px solid black;
 }
 .btn {
   padding: 10px;
   font-size: 15px;
   color: white;
-  background: #5F9EA0;
+  background: #000000;
   border: none;
   border-radius: 5px;
 }
@@ -61,8 +61,8 @@ form, .content {
   text-align: left;
 }
 .success {
-  color: #3c763d; 
-  background: #dff0d8; 
-  border: 1px solid #3c763d;
+  color: white; 
+  background: #000000; 
+  border: 1px solid white;
   margin-bottom: 20px;
 }
