@@ -1,0 +1,143 @@
+/*Game Cards: Parāda Spēles un cenu!*/
+body{
+  font: 400 15px/1.8 Lato, sans-serif;
+  color: #777;
+  background-image: url(back.jpg);
+}
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 42px;
+  text-align: center;
+  font-family: arial;
+  float:left;
+  background-color: white;
+}
+.card button{
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color:blue;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.card button:hover{
+  opacity: 0.7;
+}
+.price{
+  color:grey;
+  font-size: 18px;
+}
+/*Carusel: Pašā sākumā rāda slaidus ar Deals!*/
+#myCarousel img {
+width: 69%;
+height: 100%;
+max-height: 600px;
+border:16px solid white;
+}
+.carousel-inner img{
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+.carousel-caption h3{
+  color: #fff !important;
+  font-family: "Arial Black", sans-serif;
+}
+@media (max-width: 600px){
+  .carousel-caption{
+    display: none;
+  }
+}
+.carousel-control.left, .carousel-control.right {
+  background-image:none !important;
+  filter:none !important;
+}
+/*ABOUT US Daļa*/
+.bg-1{
+  background:black;
+  color: #bdbdbd;
+}
+.bg-1 h3{
+  color: #fff;
+}
+.bg-1 p{
+  font-style: italic;
+}
+.thumbnail{
+  padding: 0 0 15px 0;
+  border: none;
+  border-radius: 0;
+}
+.thumbnail p{
+  margin-top: 15px;
+  color: #555;
+}
+.container{
+  padding: 80px 120px;
+}
+/*Navigator Bar Pati augšēja līnija ar navigāciju!*/
+.navbar{
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 0;
+  background-color: black;
+  border: 0;
+  font-size: 16px !important;
+  letter-spacing: 4px;
+  opacity: 0.9;
+}
+.navbar li a, .navbar .navbar-brand{
+  color: black !important;
+}
+.nav-tabs li a{
+  color: #777;
+}
+.navbar-nav li.active a{
+  color: #ffffff !important
+  background-color: white !important;
+}
+.navbar-nav li a:hover{
+  color: #000000 !important;
+}
+.navbar-default .navbar-toggle{
+  border-color: transparent;
+}
+.open .dropdown-toggle{
+  color: #fff;
+  background-color: #555 !important;
+}
+.dropdown-menu li a{
+  color: #000 !important;
+}
+.dropdown-menu li a:hover{
+  background-color: red !important;
+}
+/*TO TOP Būltiņa apakaļ uz augšu!*/
+footer{
+  background-color: black;
+  color: #f5f5f5;
+  padding: 32px;
+}
+footer a{
+  color: #f5f5f5;
+}
+footer a:hover{
+  color: #777;
+  text-decoration: none;
+}
+textarea{
+  resize: none;
+}
+.img-responsive {
+  height: auto;
+  width: auto;
+  max-height: 45px;
+  max-width: 95px;
+}
+html, body{
+  padding: 0;
+  margin:0;
+}
