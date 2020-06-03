@@ -2,6 +2,7 @@
 body{
   font: 400 15px/1.8 Lato, sans-serif;
   color: #777;
+  background-image: url(back.jpg);
 }
 .card{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -10,13 +11,14 @@ body{
   text-align: center;
   font-family: arial;
   float:left;
+  background-color: white;
 }
 .card button{
   border: none;
   outline: 0;
   padding: 12px;
   color: white;
-  background-color: #000;
+  background-color:blue;
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -31,9 +33,10 @@ body{
 }
 /*Carusel: Pašā sākumā rāda slaidus ar Deals!*/
 #myCarousel img {
-width: 100%;
+width: 69%;
 height: 100%;
-max-height: 568px;
+max-height: 600px;
+border:16px solid white;
 }
 .carousel-inner img{
   height: 100%;
@@ -49,9 +52,13 @@ max-height: 568px;
     display: none;
   }
 }
+.carousel-control.left, .carousel-control.right {
+  background-image:none !important;
+  filter:none !important;
+}
 /*ABOUT US Daļa*/
 .bg-1{
-  background:#2d2d30;
+  background:black;
   color: #bdbdbd;
 }
 .bg-1 h3{
@@ -83,14 +90,14 @@ max-height: 568px;
   opacity: 0.9;
 }
 .navbar li a, .navbar .navbar-brand{
-  color: #000000 !important;
+  color: black !important;
 }
 .nav-tabs li a{
   color: #777;
 }
 .navbar-nav li.active a{
   color: #ffffff !important
-  background-color: #000000 !important;
+  background-color: white !important;
 }
 .navbar-nav li a:hover{
   color: #000000 !important;
@@ -129,4 +136,8 @@ textarea{
   width: auto;
   max-height: 45px;
   max-width: 95px;
+}
+html, body{
+  padding: 0;
+  margin:0;
 }
